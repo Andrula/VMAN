@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Dark Mode Extension",
+    "version": "1.0",
+    "content_scripts": [
+      {
+        "matches": ["*://*.virtualmanager.com/overview","*://*.virtualmanager.com/shoutbox_messages"],
+        "js": ["js/dark-mode.js"],
+        "css": ["css/dark-mode.css"]
+      }
+    ],
+    
+    "permissions": ["tabs", "activeTab", "storage", "notifications"]
+  }
+  
+  
