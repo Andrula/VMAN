@@ -1,114 +1,158 @@
 body.dark-mode {
-    background-color: rgba(32,33,35,.5) !important;
-    color: white;
-  }
-
-  #header {
-    height: 40px;
-    background-image: none !important;
-    background-color: rgba(32, 33, 35, 0.5) !important;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    color: whitesmoke;
-  }
-
-  .menu {
-    background-color: transparent !important;
-  }
-
-  .logo {
-    background-color: transparent !important;
-  }
-
-  .notifications {
-    background-color: transparent !important;
-  }
-
-  .league {
-    background-color: transparent;
-  }
-
-  .cols {
-    background-color: transparent;
-  }
-
-  .side.clubhouse {
-    background-color: transparent;
-  }
-
-  .side.clubhouse ul li a{
-    color: white;
-  }
-
-  #content .side_navigationed>.side>h3 {
-    border-bottom: 1px solid #e3d6c9;
-    margin: 10px 0 5px;
-    color: white !important;
+  background-color: black !important;
 }
 
-  a {
-    color: white !important;
-    text-decoration: none;
-    font-weight: bold;
-    cursor: pointer;
+#header {
+  background-image: none !important;
 }
 
-  .banner {
-    background-color: rgba(32, 33, 35, 0.5);
-  }
-
-.div.overview.tester {
-  background-color: rgba(32, 33, 35, 0.5);
+#header>.content>.menu ul {
+  background-color: none !important;
 }
 
-#content .side_navigationed.for_clubhouse>div:nth-child(2) {
-  background-color: rgba(32, 33, 35, 0.5) !important;
+#header>.content {
+  background-image: none !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 15px !important;
 }
 
-.afs_ads {
-  background-color: rgba(32, 33, 35, 0.5);
+.logo {
+  background-color: none !important;
+}
+
+#content>.side_navigationed.with_sheet>div:nth-child(2), #content>.login>div.content, #content>.reset_request>div.content, #content>.login_banned>div.content, #content>.country>div.content, #content>.email_changed>div.content, #content>.email_confirmation_required>div.content, #content>.quick_search>div.content, #content>.email_confirmation_sent>div.content, #content>.email_confirmed>div.content, #content>.email_delivery_failed>div.content, #content>.intro>div.content, #content>.intro_completed>div.content, #content>.welcome_back>div.content, #content>.replaced_club>div.content, #content>.season_update>div.content, #content>.training_result>div.content, #content>.blog_post>div.content, #content>.blog_post_comment>div.content, #content>.reply_to_blog_post_comment>div.content, #content>.edit_blog_post_comment>div.content, #content>.player_free_transfer>div.content, #content>.edit_blog_post>div.content, #content>.new_blog_post>div.content, #content>.new_matches>div.content, #content>.match_summary>div.content, #content>.rate_support_ticket>div.content, #content>.tactics_editor>div.content, #content>.admin_penalties>div.content, #content>.admin_matches, #content>.admin_orders, #content>.penalty>div.content, #content>.admin_transfer_price_regulations>div.content, #content>.image_uploads>div.content, #content>.appeal>div.content, #content>.admin_appeal>div.content, #content>.hire_employee>div.content, #content>.fire_employee>div.content, #content>.employee_change_job>div.content, #content>.player_bid>div.content, #content>.logged_rails_exceptions, #content>.logged_rails_exception, #content>.logged_js_exceptions, #content>.logged_js_exception, #content>.browser_outdated, #content>.admin_forum_posts, #content>.shop_choose_quantity, #content>.shop_payment_instructions, #content>.new_sms_subscription, #content>.paypal_cancellation, #content>.training_instructions>.content, #content>.training_statistics>.content, #content>.training_upgrades>.content, #content>.support_ticket, #content>.mobile_subscription_payment_failed, #content>.odds>.main, #content>.shoutbox_messages, #content>.admin_logins, #content>.admin_lookups_similar_clubs, #content>.admin_lookups_trades, #content>.admin_membership_changes, #content>.admin_transactions, #content>.admin_bannings, #content>.admin_new_banning, #content>.admin_lookups, #content>.player_comparison, #content>.admin_player_names, #content>.new_odds_event_result, #content>.odds_event_result, #content>.odds_events, #content>.new_odds_event, #content>.edit_odds_event {
+  background-color: #171716 !important;
+  color: rgb(236, 228, 228) !important; 
 }
 
 #content h1, .box>h2 {
-  border-bottom: 2px solid #ddd !important;
-  padding-bottom: 2px;
+  border-bottom: 2px solid #bbb !important;
+}
+
+#content>.side_navigationed>.overview>.cols h2 {
+  border-bottom: 2px solid #bbb !important;
+}
+
+#content .side_navigationed>.side {
+  background-color: transparent !important;
 }
 
 #content .side_navigationed>.side>ul.navigation li.current>.item {
-  background: rgb(0 0 0 / 50%) !important;
+  background: #bbb !important;
+  color: rgb(86, 76, 76) !important;
+}
+
+#content .side_navigationed>.side>ul.navigation li .item {
+  color: rgb(236, 228, 228) !important;
+}
+
+#content .side_navigationed>.side>h3 {
+  color: rgb(236, 228, 228) !important;
+}
+
+.banner {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.afs_ads {
+  background-color: black !important;
 }
 
 #content>.side_navigationed>.overview>.cols>.primary>.newsflash {
   background: #878787 !important;
 }
 
-#content>.side_navigationed>.overview>.cols>.primary>.current_club {
-  background: #878787 !important;
+#content>.side_navigationed>.overview>.cols>.primary>.newsflash .content a.hide {
+  color: #eee !important;
 }
 
 #content>.side_navigationed>.overview>.cols>.primary>.current_club>.current_objective .objective>div.description {
-  color: #e8e8e8 !important;
+  color: rgb(0 0 0 / 80%) !important;
 }
 
 #content>.side_navigationed>.overview>.cols>.primary>.current_club>.status>div .description {
+  color: rgb(0 0 0 / 80%) !important;
+}
+
+a {
   color: #e8e8e8 !important;
 }
 
-.current_matches {
-  background-color: none;
+#content>.side_navigationed>.overview>.cols>.primary .league table .place, #content>.side_navigationed>.overview>.cols>.primary .league table .matches_played, #content>.side_navigationed>.overview>.cols>.primary .league table .goal_difference, #content>.side_navigationed>.overview>.cols>.primary .league table .points {
+  color: #e8e8e8;
 }
 
-#content>.side_navigationed>.overview>.cols h2 {
-  border-bottom: 2px solid white !important;
+#content>.side_navigationed>.overview>.cols .secondary .current_matches .match .info_and_preview a {
+  color: #e8e8e8 !important;
+  background-color: grey !important; 
 }
 
-#content>.shoutbox_messages {
-  width: 520px;
-  margin: 10px auto;
-  background-color: rgba(32, 33, 35, 0.5) !important;
+#content>.side_navigationed>.overview>.cols .secondary .current_matches .match .info_and_preview {
+  background-color: grey !important; 
 }
-  
+
+#content .side_navigationed {
+  background-image: none !important;
+}
+
+#header>.content>.upcoming_match_and_dropdowns>.dropdowns .account.active .content {
+  background-color: grey !important;
+}
+
+#header>.content>.upcoming_match_and_dropdowns>.dropdowns .notifications.active .count, #header>.content>.upcoming_match_and_dropdowns>.dropdowns .account.active .name_and_arrow {
+  background: grey !important;
+}
+
+#content>.side_navigationed>.forums .forum .description {
+  color: white !important;
+}
+
+#content h1 {
+  color: white !important;
+}
+
+#content>.side_navigationed>.forums .forum .latest {
+  color: #e8e8e8 !important;
+}
+
+#content>.side_navigationed>.auction_search>.results>table>tbody>tr>.value, #content>.side_navigationed>.auction_search>.results>table>tbody>tr>.bid {
+  color: white !important;
+}
+
+#content>.side_navigationed>.auction_search>.results>table>tbody>tr>.age, #content>.side_navigationed>.auction_search>.results>table>tbody>tr>.position, #content>.side_navigationed>.auction_search>.results>table>tbody>tr>.country, #content>.side_navigationed>.auction_search>.results>table>tbody>tr>.abilities_sum {
+  color: white;
+}
+
+#content>.side_navigationed>.overview>.cols>.primary>.current_club {
+  margin: 14px 0 20px 0;
+  height: 225px;
+  background-image: none !important;
+}
+
+#content>.side_navigationed>.overview>.cols>.primary>.current_club>.current_objective {
+  margin: 16px 0 0 6px;
+  border-radius: 25px;
+  height: 55px;
+  background-color: grey;
+}
+
+#content>.side_navigationed>.overview>.cols>.primary>.current_club>.status {
+  margin: 0 6px;
+  background: grey;
+  border-radius: 25px;
+  height: 55px;
+}
+
+#content>.side_navigationed>.overview>.cols>.primary>.current_club {
+  height: 200px !important; 
+  background-color: black !important;
+}
+
+#header>.content>.upcoming_match_and_dropdowns>.dropdowns>div, #header>.content>.upcoming_match_and_dropdowns>.dropdowns .notifications {
+  border-color: #777 !important;
+}
 
 
-  
+
+
+
