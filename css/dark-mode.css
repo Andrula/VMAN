@@ -185,7 +185,7 @@ a {
 
 #content>.side_navigationed>.forum .notices {
   color: white;
-  background-color: rgba(85,85,84,255 !important);
+  background-color: rgba(85,85,84,255) !important;
 }
 
 #content>.side_navigationed>.forum .topics .topic .title_author_and_replies .author_and_replies {
@@ -221,15 +221,6 @@ a {
   background-color: rgba(85,85,84,255) !important;
 }
 
-
-element.style {
-}
-#header>.content>.upcoming_match_and_dropdowns>.dropdowns .notifications.active .content {
-    display: block;
-    z-index: 1;
-    border-style: 1px solid;
-}
-injected stylesheet
 #header > .content > .upcoming_match_and_dropdowns > .dropdowns .notifications.active .content {
     color: white !important;
     background-color: rgb(85, 85, 84) !important;

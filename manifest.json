@@ -2,11 +2,13 @@
     "manifest_version": 3,
     "name": "Dark Mode Extension for virtualmanager",
     "version": "1.0",
+    "action": {
+      "default_popup": "popup.html"
+    },
     "content_scripts": [
       {
         "matches": ["*://*.virtualmanager.com/*"],
-        "js": ["js/dark-mode.js"],
-        "css": ["css/dark-mode.css"]
+        "js": ["js/dark-mode.js"]
       }
     ],
     
